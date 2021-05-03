@@ -1,0 +1,23 @@
+{
+  "name": "readme_generator",
+  "version": "1.0.0",
+  "description": "A Github README Generator",
+  "main": "index.js",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamuelHeal/README_Generator.git"
+  },
+  "author": "Samuel Heal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamuelHeal/README_Generator/issues"
+  },
+  "homepage": "https://github.com/SamuelHeal/README_Generator#readme"
+}

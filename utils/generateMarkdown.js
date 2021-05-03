@@ -3,22 +3,25 @@
 function renderLicenseBadge(license) {
   const theLicense = license
   if (theLicense === 'Eclipse'){
-    return '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]'
+    return '![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)'
+  }
+  else if(theLicense === 'ISC'){
+    return '![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)'
   }
   else if (theLicense === 'GNU'){
-    return '[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)]'
+    return '![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)'
   }
   else if (theLicense === 'IBM'){
-    return '[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)]'
+    return '![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)'
   }
   else if (theLicense === 'MIT'){
-    return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]'
+    return '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)'
   }
   else if (theLicense === 'Mozilla'){
-    return '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)]'
+    return '![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)'
   }
   else if (theLicense === 'Zlib'){
-    return '[![License: Zlib](https://img.shields.io/badge/License-Zlib-lightgrey.svg)]'
+    return '![License: Zlib](https://img.shields.io/badge/License-Zlib-lightgrey.svg)'
   }
   else{
     return ''
@@ -31,24 +34,26 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   const theLicense = license
 
-  
   if (theLicense === 'Eclipse'){
-    return '(https://opensource.org/licenses/EPL-1.0)'
+    return 'https://opensource.org/licenses/EPL-1.0'
+  }
+  else if(theLicense === 'ISC'){
+    return 'https://opensource.org/licenses/ISC'
   }
   else if (theLicense === 'GNU'){
-    return '(http://www.gnu.org/licenses/gpl-3.0)'
+    return 'http://www.gnu.org/licenses/gpl-3.0'
   }
   else if (theLicense === 'IBM'){
-    return '(https://opensource.org/licenses/IPL-1.0)'
+    return 'https://opensource.org/licenses/IPL-1.0'
   }
   else if (theLicense === 'MIT'){
-    return '(https://opensource.org/licenses/MIT)'
+    return 'https://opensource.org/licenses/MIT'
   }
   else if (theLicense === 'Mozilla'){
-    return '(https://opensource.org/licenses/MPL-2.0)'
+    return 'https://opensource.org/licenses/MPL-2.0'
   }
   else if (theLicense === 'Zlib'){
-    return '(https://opensource.org/licenses/Zlib)'
+    return 'https://opensource.org/licenses/Zlib'
   }
   else{
     return ''
