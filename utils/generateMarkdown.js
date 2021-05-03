@@ -102,11 +102,10 @@ function generateText(data) {
   ## License
   ${data.License}
 
-  ## Github
-  ${data.Github}
-
-  ## Email
-  ${data.Email}
+  ## Questions
+  Github: https://github.com/${data.Github}
+  Email: ${data.Email}
+  
 `;
 }
 
