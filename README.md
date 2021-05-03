@@ -11,8 +11,7 @@
   - [Contribution](#contribution)
   - [Test](#test)
   - [License](#license)
-  - [Github](#github)
-  - [Email](#email)
+  - [Questions](#questions)
 
   ## Installation
   The files will need cloned onto your computer in order to be run from your terminal. Inquirer will also need to be installed with 'npm install inquirer" for the program to work
@@ -29,8 +28,10 @@
   ## License
   ISC
 
-  ## Github
-  https://github.com/SamuelHeal
+  ## Questions
+  Github: https://github.com/SamuelHeal
+  Email: samuelheal@hotmail.com
 
-  ## Email
-  samuelheal@hotmail.com
+  ## Video Link
+  https://drive.google.com/file/d/1O54oQntY5b1wMTnrAEIzo5OrWyP_6p36/view?usp=sharing
+  
