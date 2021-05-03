@@ -84,8 +84,7 @@ function generateText(data) {
   - [Contribution](#contribution)
   - [Test](#test)
   - [License](#license)
-  - [Github](#github)
-  - [Email](#email)
+  - [Questions](#questions)
 
   ## Installation
   ${data.Installation}
