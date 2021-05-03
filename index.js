@@ -29,11 +29,13 @@ const questions = [
     },
     {
         question: 'Please enter the TEST INSTRUCTIONS: ',
-        name: "Test"
+        name: "Test",
     },
     {
+        type: 'list',
         question: 'Please enter a license: ',
-        name: "License"
+        name: "License",
+        choices: ['MIT', 'Eclipse', 'ISC', 'GNU', 'IBM', 'Mozilla', 'Zlib']
     },
     {
         question: 'Please enter your GITHUB Username: ',
