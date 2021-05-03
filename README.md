@@ -1,9 +1,9 @@
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)  (https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]<br />(https://opensource.org/licenses/MIT)
   
   # a
   
   ## Description:
-  eaf
+  fea
   
   ## Table of contents:
   - [Installation](#installation)
@@ -15,22 +15,22 @@
   - [Email](#email)
 
   ## Installation
-  ea
+  
 
   ## Usage
-  fea
+  ef
 
   ## Contribution
-  eaf
+  efa
 
   ## Test
-  ae
+  eega
 
   ## License
   MIT
 
   ## Github
-  ea
+  ae
 
   ## Email
-  fa
+  fea

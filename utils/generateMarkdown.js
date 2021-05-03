@@ -60,7 +60,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   const badge = renderLicenseBadge(license)
   const link = renderLicenseLink(license)
-  return badge + "  " + link
+  return badge + "<br />" + link
 }
 
 // TODO: Create a function to generate markdown for README
