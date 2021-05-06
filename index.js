@@ -8,41 +8,41 @@ const fs = require("fs")
 // TODO: Create an array of questions for user input
 const questions = [
     {
-        question: 'Please enter the TITLE of your project: ',
+        message: 'Please enter the TITLE of your project: ',
         name: "Title"
     },
     {
-        question: 'Please enter a DESCRIPTION of your project: ',
+        message: 'Please enter a DESCRIPTION of your project: ',
         name: "Description"
     },
     {
-        question: 'Please enter the INSTALLATION INSTRUCTIONS: ',
+        message: 'Please enter the INSTALLATION INSTRUCTIONS: ',
         name: "Installation"
     },
     {
-        question: 'Please enter the USAGE INFORMATION: ',
+        message: 'Please enter the USAGE INFORMATION: ',
         name: "Usage"
     },
     {
-        question: 'Please enter the CONTRIBUTION GUIDELINES: ',
+        message: 'Please enter the CONTRIBUTION GUIDELINES: ',
         name: "Contribution"
     },
     {
-        question: 'Please enter the TEST INSTRUCTIONS: ',
+        message: 'Please enter the TEST INSTRUCTIONS: ',
         name: "Test",
     },
     {
         type: 'list',
-        question: 'Please enter a license: ',
+        message: 'Please enter a license: ',
         name: "License",
         choices: ['MIT', 'Eclipse', 'ISC', 'GNU', 'IBM', 'Mozilla', 'Zlib']
     },
     {
-        question: 'Please enter your GITHUB Username: ',
+        message: 'Please enter your GITHUB Username: ',
         name: "Github"
     },
     {
-        question: 'Please enter your EMAIL: ',
+        message: 'Please enter your EMAIL: ',
         name: "Email"
     },
 ];
